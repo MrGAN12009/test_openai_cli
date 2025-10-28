@@ -10,7 +10,7 @@ import glob
 from openai import OpenAI
 from dotenv import load_dotenv
 
-
+#комментарий
 def load_prompts_from_folder(prompts_folder='prompts'):
     """Загружает все промпты из папки prompts/"""
     prompts = []
